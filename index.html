@@ -1,11 +1,171 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Sport</title>
+    <style>
+            .navbar{
+                width: 100%;
+                background-color: darkred;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo{
+                margin-left: 20px;
+                color: white;
+                
+            }
+            html {
+            height: 100%;
+            }
+            body{
+                width: 90%;
+                padding: 0;
+                margin: 0 auto;
+            }
+            .menu{
+                margin-right: 10px;
+            }
+            a{
+                margin-right: 10px;
+                color: #BBB2AC;
+                text-decoration: none;
+            }
+            .main{
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                background-color: #b3dadc;
+                padding: 20px;
+                border-radius: 8px;
+                box-sizing: border-box;
+            }
+            .main-part-1{
+                width: 50%;
+                box-sizing: border-box;
+                padding: 0;
+            }
+            .main-part-1 img {
+                width: 100%; 
+                height: auto; 
+            }
+            .main-part-2{
+                width: 50%;
+                box-sizing: border-box;
+                margin-left: 20px;
+                padding: 0;
+            }
+            .newCard{   
+                display: flex; 
+                justify-content: space-around;
+                width: 100%;
+                margin: 0 20px;
+                box-sizing: border-box;
+                gap: 20px;
+                width: 100%;
+                margin: 0 auto;
+
+            }
+            .card{
+                width: calc(25% - 20px);
+                border: 2px solid #eaeaea;
+                border-radius: 8px;
+                padding: 0;
+                box-sizing: border-box;
+                text-align: center;
+                background-color: #fff;
+                justify-content: space-between;
+                flex-direction: column;
+                display: flex;
+            }
+            .card h4 {
+                margin: 0;
+                color: #333;
+                font-weight: bold;
+            }
+
+            .card p {
+                margin: 0;
+                color: #777;
+                font-weight: normal;
+                flex-grow: 1;
+            }
+            .card img {
+               width: 100%;
+                height: 180px;
+                object-fit: contain;
+                border-radius: 8px 8px 0 0;
+            }
+            .read-more {
+                background: darkred;
+                color: white;
+                padding: 8px 16px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                margin-top: 10px;
+                text-transform: uppercase;
+                width: 50%;
+                margin-left: 20px;
+            }
+            .read-more:hover {
+                background: red;
+                transition: background 0.3s;
+            }
+    </style>
 </head>
 <body>
-    
+    <div class="navbar">
+        <div class="logo">
+            <h1>BITLAB NEWS</h1>
+        </div>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">Sport</a>
+            <a href="">Science</a>
+            <a href="">Politics</a>
+            <a href="">Finance</a>
+        </div>
+    </div>
+    <div class="main">
+            <div class="main-part-1">
+                <img src="https://media.gq-magazine.co.uk/photos/5d13ad7beef9216deaa007a4/16:9/w_1920,c_limit/conor-mcgregor-01-gq-5oct18_getty_b.jpg">
+            </div>
+            <div class="main-part-2">
+                <h2>Conor McGregor vs Khabib Nurmagomedov, UFC 229: betting tips and best odds</h2>
+                <p>Conor McGregor, on hand there to clarify that this weekend’s pay-per-view subscribers will indeed be patched through to the 229th renewal of the Ultimate Fighting Championship live from Las Vegas, not a vicars’ tea party.
+
+                    McGregor certainly knows how to sell the sizzle, but it’s the sausage he should be wary of as for the first time in his UFC career (and ignoring his recent foray into boxing) the bookmakers have him down as an underdog, with the odds suggesting Khabib Nurmagomedov from Dagestan will be by far his toughest opponent to date. The bookies don’t usually miss a trick and they too must have seen that video of him wrestling a bear for fun as a child.</p>
+            </div>
+    </div>
+    <div style="text-align: center; font-size: 20;"><h3>Latest News</h3></div>
+    <div class="newCard">
+        <div class="card">
+            <img src="https://sportshub.cbsistatic.com/i/r/2024/11/13/70b0720d-73e8-4e74-be66-5966a6b5fd89/thumbnail/370x208/ee1efb2ef4379c9ee55f2d4c116d726c/costarica-celly-getty-cbs.jpg" alt="Image 1">
+            <h4>How to watch, live stream: Costa Rica vs. Panama</h4>
+            <p>Brandt Sutton has locked in his best bets for Thursday's Panama vs. Costa Rica Concacaf Na...</p>
+            <button class="read-more">Read More</button>
+        </div>
+        <div class="card">
+            <img src="https://sportshub.cbsistatic.com/i/r/2024/11/14/38b7fd4b-87e9-4c6e-8b8c-197cd058aeb0/thumbnail/370x208/29a14ac86f4e9965fc0f1a2356dfe25d/christian-pulisic-usatsi.jpg" alt="Image 2">
+            <h4>USMNT vs. Jamaica odds, Nations League picks, bets</h4>
+            <p>Jon Eimer has locked in his best bets for Thursday's Concacaf Nations League match between...</p>
+            <button class="read-more">Read More</button>
+        </div>
+        <div class="card">
+            <img src="https://sportshub.cbsistatic.com/i/r/2024/11/14/721b83b2-8688-4276-8e66-a7105349aff3/thumbnail/370x208/0b78f34b29e0e844e905aee657b161f5/italy.jpg" alt="Image 3">
+            <h4>What to know about Belgium vs. Italy</h4>
+            <p>The Azzurri only need one point to access the UEFA Nations League quarterfinals</p>
+            <button class="read-more">Read More</button>
+        </div>
+        <div class="card">
+            <img src="https://sportshub.cbsistatic.com/i/r/2024/11/14/d8a72343-dc4e-4a80-8a7c-73f2581d15a3/thumbnail/370x208/22ee64fa276ee217b0dcd06589e3a181/poch-1.jpg" alt="Image 4">
+            <h4>USMNT vs. Jamaica: Three keys</h4>
+            <p>The Americans are back in action on Thursday night with a tricky test at Jamaica, and here...</p>
+            <button class="read-more">Read More</button>
+        </div>
+    </div>
 </body>
 </html>
